@@ -10,4 +10,4 @@ This is a fork of helloWorldJS by ndw. In his readme file, ndw writes:
 
 I'm just starting to discover Saxon JS and stumbled upon this project when searching for a "hello world" example. To grasp the basics, I chopped off everything dispensable, especially concerning the mentioned test case. So yes, I do want this code and it shouldn't be deleted. Maybe I missed something, but I didn't find another Saxon JS 2 "hello world". So at least for me, it's to be found here.
 
-The docs folder contains the example including the compiled XSLT file and the SaxonJS2 file to experience the [index.html](https://andreasheese.github.io/helloWorldJS/) working.
+The docs folder contains the example including the compiled XSLT file and the SaxonJS2 file to experience the [index.html](https://andreasheese.github.io/helloWorldJS/) working. It's not really documentation, but it's on GitHub Pages.
