@@ -12,6 +12,8 @@ I'm just starting to discover Saxon JS and stumbled upon this project when searc
 
 The docs folder contains the example including the compiled XSLT file and the Saxon JS 2 file to experience the [index.html](https://andreasheese.github.io/helloWorldJS/) working. It's not really documentation, but it's on GitHub Pages.
 
+I added a CC0 license just to state that I don't claim any copyright, as my "work" is rather minor. I haven't found a license at the forked repository.
+
 Saxon JS 2 is a product of Saxonica and available at [saxonica.com](https://www.saxonica.com/saxon-js/index.xml). It is free of charge but not open source. The [public license](https://www.saxonica.com/saxon-js/documentation/index.html#!conditions/public-license) (which only applies to the file [SaxonJS2.rt.js](https://github.com/AndreasHeese/helloWorldJS/blob/main/docs/SaxonJS2.rt.js) for the working example) states:
 
 > Version 1.0, June 2020
