@@ -1,6 +1,6 @@
 # Hello World in Saxon JS 2
 
-This is a fork of helloWorldJS by ndw. In his readme file, ndw writes:
+This is a fork of [helloWorldJS](https://github.com/Saxonica/helloWorldJS) by Saxonica/ndw. In his readme file, ndw writes:
 
 > This project contains (almost) the simplest possible “hello world”
 > example using Saxon JS 2.
