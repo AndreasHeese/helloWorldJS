@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Saxon JS 2.0 "Hello, world"-example with client side file</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+		<style>
+			html { font-size: 16pt; }
+			input { width: 30em; background-color: #DCDCDC; }
+		</style>
+		<script type="text/javascript" src="js/SaxonJS2.rt.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function handleFile(input) {
+				FileURL = URL.createObjectURL(input[0]);
+				SaxonJS.transform({
+					stylesheetLocation: "HelloWorld.sef.json",
+					sourceLocation: FileURL
+				}, "async");
+			}
+		</script>
+		<h1>Saxon JS 2.0 "Hello, world"-example with client side file</h1>
+		<div>Select a client side xml file on your computer. To do so, the appropriate file HelloWorld.xml must be downloaded first. Edit the file data to experience the effect.</div>
+		<input type="file" id="xml" accept=".xml" onchange="handleFile(this.files)"/>
+		<div id="hello">
+			<p>no file selected yet…</p>
+		</div>
+	</body>
+</html>
