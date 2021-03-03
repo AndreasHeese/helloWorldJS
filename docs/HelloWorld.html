@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello, world</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+		<style>
+			html { font-size: 16pt; }
+		</style>
+		<script type="text/javascript" src="js/SaxonJS2.rt.js"></script>
+		<script type="text/javascript">
+			window.onload = function() {
+			  SaxonJS.transform({
+				stylesheetLocation: "HelloWorld.sef.json",
+				sourceLocation: "HelloWorld.xml"
+			  }, "async");
+			}  
+		</script>
+	</head>
+	<body>
+		<h1>Saxon JS 2.0 "Hello, world"-example</h1>
+		<div id="hello">
+			<p>Loading…</p>
+		</div>
+	</body>
+</html>
