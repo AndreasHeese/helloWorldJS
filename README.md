@@ -10,6 +10,8 @@ This is a fork of [helloWorldJS](https://github.com/Saxonica/helloWorldJS) by Sa
 
 I'm just starting to discover Saxon JS and stumbled upon this project when searching for a Browser "hello world" example. To grasp the basics, I chopped off everything dispensable, especially concerning the mentioned test case. So yes, I do want this code and it shouldn't be deleted. Maybe I missed something (actually I have, the forked repository also had a stripped branch), but I didn't find another Saxon JS 2 "hello world". So at least for me, it's saved here.
 
+My next step is a XML editor with Saxon-JS. Find it at [github.com/AndreasHeese/xmlEdit](https://github.com/AndreasHeese/xmlEdit) if you're curious.
+
 The docs folder contains the example including the compiled XSLT file and the Saxon JS 2 file to experience the [examples](https://andreasheese.github.io/helloWorldJS/) working. It's not really documentation, but it's on GitHub Pages. There are two examples now, the plain and another one processing a client side file.
 
 I added a CC0 license just to state that I don't claim any copyright, as my "work" is rather minor. I haven't found a license at the forked repository.
